@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
   content: [
         "./src/**/*.{html,js,css}",
          "public/**/*.{html,js,css}",
@@ -9,4 +10,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  //prefix:"hu-",
+  
+
 }

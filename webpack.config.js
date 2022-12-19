@@ -27,22 +27,17 @@ module.exports = {
             'style-loader',
             'css-loader',
             'postcss-loader'],
+            
       },
     ],
 
   },
   plugins: [
-    new MangleCssClassPlugin({
-      classNameRegExp: '[cl]-[a-z][a-zA-Z0-9_]*',
-      log: true,
-      
-    //   entry: ['./public/index.html'],
-    //   output: {
-    //     path: path.resolve(__dirname, 'public/page'),
-    //     filename: 'index.html',
-    //   },
-
-    }),
+    // new MangleCssClassPlugin({
+    //   classNameRegExp: '[cl]-[a-z][a-zA-Z0-9_]*',
+    //   log: true,
+ 
+    // }),
   ],
 
 }
